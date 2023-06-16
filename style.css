@@ -58,11 +58,20 @@
 }
 .horario i{
   background-color: var(--color2);
+  color: var(--color4);
   font-size: 15px;
   padding: 10px;
   margin: auto 15px;  
 }
+
+.horario a{
+  color: var(--color4);
+}
 .horario a:visited{
+  color: inherit;  
+}
+
+.horario i:visited{
   color: inherit;  
 }
 
